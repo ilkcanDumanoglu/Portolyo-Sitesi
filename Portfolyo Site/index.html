@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolyo Sayfası</title>
+    <link rel="stylesheet" href="CSS/genel.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js"
+    integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe"
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <script src="JS/genel.js"></script>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="section_uzunlugu"> 
+            <!--Logonun eklendiği bölge-->   
+                <div>
+                    <a href="#ana_menu"><img src="logonuz" alt="logo"></a>
+                </div>
+                <!-- menülerin yazdığı bölge-->
+            <ul class="menu">
+                <li><a href="#ana_menu" class="menu_butonu">Lorem1</a></li>
+                <li><a href="#hakkımda" class="menu_butonu">Lorem2</a></li>
+                <li><a href="#hizmetler" class="menu_butonu">Lorem3</a></li>
+                <li><a href="#DandY" class="menu_butonu">Lorem4</a></li>
+                <li><a href="#calısmalar" class="menu_butonu">Lorem5</a></li>
+                <li><a href="#iletisim" class="menu_butonu">Lorem6</a></li>
+            </ul>
+            <!--Telefon ekranı için oluşan burger menü-->
+            <div class="menu_butonu">
+                <!--hamburger menüye ait olan 3 çizgiyi koyar. "fas fa-" şeklindeki yapılar bootstrap yapılarıdır, değiştirmeyin. -->
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!--Ana Menu -->
+    <section class="ana_menu" id="ana_menu">
+        <!--Sectionların oluşturduğu siyah ve beyaz bölümler-->
+        <div class="section_uzunlugu">
+            <!--Ana menüde yazan yazılar-->
+            <div class="ana_menu_kismi">
+                <div class="yazi-1">Lorem, ipsum dolor.</div>
+                <div class="yazi-2">Lorem, ipsum.</div>
+                <div class="yazi-3">Lorem ipsum dolor sit.</div>
+                <a href="#hizmetler">İş alın</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!--Hakkımda-->
+    <section class="hakkımda" id="hakkımda">
+        <!--Sectionların oluşturduğu siyah ve beyaz bölümler-->
+        <div class="section_uzunlugu">
+            <h2 class="title">Hakkımda</h2>
+            <div class="hakkımda_kismi">
+                <!--Fotografın bulundugu sol sütun-->
+                <div class="sutun sol">
+                    <img src="Fotografınız" alt="Fotografınız">
+                </div>
+                <!--  Hakkımda yazısının ve CV'min bulunduğu alan -->
+                <div class="sutun sag">
+                    <div class="yazi">
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo vel sint optio eligendi
+                        consequatur et ipsam libero omnis adipisci deleniti unde quibusdam ipsa voluptatibus 
+                        delectus odit, qui fugit dolorem ducimus!</p>
+                    <A Href="Hakkınızdaki bilgiler için bir indirme linki"
+                         target="_blank">Download</A>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Hizmetler-->
+    <section class="hizmetler" id="hizmetler">
+        <div class="section_uzunlugu">
+            <h2 class="title">Hizmetler</h2>
+            <div class="hizmetler_kismi">
+                <!--  Her bir hizmet için oluşturulan bir bölüm-->
+                <div class="kart">
+                    <div class="kutu">
+                        <div class="yazi"> <a target= "_blank" href="link">Lorem</a> </div>
+                    </div>
+                </div>
+                <div class="kart">
+                    <div class="kutu">
+                        <div class="yazi"> <a target= "_blank" href="link">Lorem</a></div>
+                    </div>
+                </div>
+                <div class="kart">
+                    <div class="kutu">
+                        <div class="yazi"> <a target= "_blank" href="link">Lorem</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!--D&Y-->
+    <section class="DandY" id="DandY">
+        <!--Sectionların oluşturduğu siyah ve beyaz bölümler-->
+        <div class="section_uzunlugu">
+            <h2 class="title">D&Y</h2>
+            <div class="DandY_kismi">
+                <div class="sutun sol">
+                    <div class="yazi">Deneyimler</div>
+                    <ul>
+                        <li><em>1</em> Lorem ipsum dolor sit.</li>
+                        <li><em>3</em> Lorem ipsum dolor sit.</li>
+                        <li><em>4</em> Lorem ipsum dolor sit.</li>
+                        <li><em>2</em> Lorem ipsum dolor sit.</li>
+                    </ul>
+                    <a href="#hakkımda">Daha fazlasını oku...</a>
+                </div>
+                <div class="sutun sag">
+                    <!--  Her bölüm için eklenen bir ilerleme barı, ilgili olduğu konu ve ilerleme yüzdesi  -->
+                    <div class="yazi">Yetenekler</div>
+                    <div class="barlar">
+                        <div class="bilgi">
+                            <span>Lorem</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="sıra ROS"></div>
+                    </div>
+                    <div class="barlar">
+                        <div class="bilgi">
+                            <span>Lorem, ipsum.</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="sıra irvoa"></div>
+                    </div>
+                    <div class="barlar">
+                        <div class="bilgi">
+                            <span>Lorem, ipsum dolor.</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="sıra C"></div>
+                    </div>
+                    <div class="barlar">
+                        <div class="bilgi">
+                            <span>Lorem ipsum dolor sit.</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="sıra python"></div>
+                    </div>
+                    <div class="barlar">
+                        <div class="bilgi">
+                            <span>Lorem ipsum dolor sit amet.</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="sıra java"></div>
+                        <div class="barlar">
+                            <div class="bilgi">
+                                <span>Lorem ipsum dolor sit amet consectetur.</span>
+                                <span>60%</span>
+                            </div>
+                            <div class="sıra hcj"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <!-- Çalışmalarım -->
+    <section class="calısmalar" id="calısmalar">
+        <!--Sectionların oluşturduğu siyah ve beyaz bölümler-->
+        <div class="section_uzunlugu">
+            <h2 class="title">Çalışmalar</h2>
+            <!--  Owl-carousel, kaydıdrmalı kızak yapısının oluşmasını sağlar, çalışmaları sağ tık ile kaydırarak görüntüleyebilirsiniz. -->
+            <div class="carousel owl-carousel">
+                <!--  Her çalışma için bir bölüm oluşturuldu. -->
+                <div class="kart">
+                    <a href="single.html" target="_blank">
+                        <div class="kutu">
+                            <img src="içerik resminiz" alt="içerik resmi">
+                            <div class="yazi"><strong>Lorem, ipsum.</strong></div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe pariatur consequatur earum?</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="kart">
+                    <a href="single.html" target="_blank">
+                        <div class="kutu">
+                            <img src="içerik resminiz" alt="içerik resmi">
+                            <div class="yazi"><strong>Lorem, ipsum.</strong></div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe pariatur consequatur earum?</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="kart">
+                    <a href="single.html" target="_blank">
+                        <div class="kutu">
+                            <img src="içerik resminiz" alt="içerik resmi">
+                            <div class="yazi"><strong>Lorem, ipsum.</strong></div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe pariatur consequatur earum?</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="kart">
+                    <a href="single.html" target="_blank">
+                        <div class="kutu">
+                            <img src="içerik resminiz" alt="içerik resmi">
+                            <div class="yazi"><strong>Lorem, ipsum.</strong></div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe pariatur consequatur earum?</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- İletişim -->
+    <section class="iletisim" id="iletisim">
+        <!--Sectionların oluşturduğu siyah ve beyaz bölümler-->
+        <div class="section_uzunlugu">
+            <h2 class="title">İletişim</h2>
+            <div class="iletisim_kismi">
+                <div class="sutun sol">
+                    <p>İletişim</p>
+                    <!--  İletişim bilgilerinin yazdığı her bir bölüm -->
+                    <div class="icons">
+                        <div class="satir">
+                            <i class="fas fa-user"></i>
+                            <div class="bilgi">
+                                <div class="head">İsim</div>
+                                <div class="sub-title">Lorem, ipsum dolor.</div>
+                            </div>
+                        </div>
+                        <div class="satir">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="bilgi">
+                                <div class="head">Adres</div>
+                                <div class="sub-title">Lorem, ipsum dolor.</div>
+                            </div>
+                        </div>
+                        <div class="satir">
+                            <i class="fas fa-envelope"></i>
+                            <div class="bilgi">
+                                <div class="head">Email</div>
+                                <div class="sub-title">Lorem, ipsum dolor.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--  Mesaj gönderme bölümü -->
+                <div class="sutun sag">
+                    <div class="yazi">İletişime Geçelim</div>
+                    <form action="#">
+                        <div class="isimvemail">
+                            <div class="bolum isim">
+                                <input type="text" placeholder="İsminiz" required>
+                            </div>
+                            <div class="bolum email">
+                                <input type="email" placeholder="Emailiniz" required>
+                            </div>
+                        </div>
+                        <div class="bolum">
+                            <input type="text" placeholder="Konu" required>
+                        </div>
+                        <div class="bolum mesaj">
+                            <textarea cols="30" rows="10" placeholder="Mesaj" required></textarea>
+                        </div>
+                        <div class="buton">
+                            <button type="submit">Gönder</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <!-- Hareketli sosyal medya ikonlarının tanımlanması  -->
+        <div class="sosyal_medya">
+            <a class="social-button medium" href="https://medium.com/@ilkcan0dumanoglu" target="_blank"><i class="fab fa-medium"></i></a>
+            <a class="social-button twitter" href="https://twitter.com/DumanogluIlkcan" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a class="social-button instagram" href="https://www.instagram.com/ilkcan_dumanoglu/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a class="social-button youtube" href="https://www.youtube.com/channel/UCdVXqxqzHwMOKqLnoX6J8Nw" target="_blank"><i class="fab fa-youtube"></i></a>
+            <a class="social-button linkedin" href="https://www.linkedin.com/in/ilkcan-dumano%C4%9Flu-b62009234/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a class="social-button github" href="https://github.com/ilkcanDumanoglu" target="_blank"><i class="fab fa-github"></i></a>
+            <!-- Alt bölümdeki yazı -->
+            <p id="fy"><em>Lorem ipsum dolor sit amet.</em> </p>
+
+        </div>
+      </footer>
+
+</body>
+
+</html>
